@@ -1,0 +1,13 @@
+Package: regclass
+Type: Package
+Title: Tools for an Introductory Class in Regression and Modeling
+Version: 1.4
+Date: 2016-06-21
+Author: Adam Petrie
+Maintainer: Adam Petrie <apetrie@utk.edu>
+Depends: R (>= 3.2.1), bestglm, leaps, VGAM, rpart, rpart.plot,
+        randomForest
+Description: Contains tools for visualizing, interpreting, and building regression models.  It has been designed for use with the book Introduction to Regression and Modeling with R by Adam Petrie, Cognella Publishers.
+License: GPL (>=2)
+NeedsCompilation: no
+Packaged: 2016-06-27 19:45:14 UTC; Cresthill

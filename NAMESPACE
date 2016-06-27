@@ -1,0 +1,18 @@
+exportPattern("^[[:alpha:]]+")
+import(bestglm)
+import(leaps)
+import(VGAM)
+import(rpart)
+import(rpart.plot)
+import(randomForest)
+importFrom("grDevices", "grey", "rainbow")
+importFrom("graphics", "abline", "axis", "barplot", "box", "curve",
+             "hist", "layout", "legend", "lines", "locator", "par",
+             "points", "rect", "text", "title")
+importFrom("stats", "addmargins", "aggregate", "anova", "as.formula",
+             "binom.test", "binomial", "chisq.test", "cooks.distance",
+             "cor", "cor.test", "cov", "cov2cor", "dnorm", "drop1",
+             "gaussian", "glm", "kruskal.test", "ks.test", "lm",
+             "lm.fit", "loess", "lsfit", "mahalanobis", "median",
+             "model.response", "pchisq", "ppoints", "qnorm", "quantile",
+             "rbinom", "rstudent", "sd", "shapiro.test", "step")
